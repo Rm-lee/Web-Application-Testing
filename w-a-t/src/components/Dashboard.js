@@ -4,9 +4,6 @@ import Display from './Display'
 function Dashboard(props) {
  const [strikes, setStrikes] = useState(0)
  const [balls, setBalls] = useState(0) 
-
-
-
 if(balls >= 4 || strikes >=3){
  setBalls(0)
  setStrikes(0)
