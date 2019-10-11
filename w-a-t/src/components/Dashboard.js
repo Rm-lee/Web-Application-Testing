@@ -8,7 +8,7 @@ function Dashboard(props) {
 
 
 
- 
+
  return (
   <>
    <button>Strike</button>
@@ -16,7 +16,7 @@ function Dashboard(props) {
    <button>Foul</button>
    <button>Hit</button>
 
-   <Display strikes={strikes} balls={balls} foul={foul}/>
+   <Display strikes={strikes} balls={balls} foul={foul} hit={hit}/>
   </>
  );
 };
