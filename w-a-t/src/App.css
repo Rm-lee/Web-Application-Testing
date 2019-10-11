@@ -31,3 +31,6 @@
   padding:10px 50px;
   text-align:center;
 }
+.button-container button{
+  margin:20px 10px;
+}
